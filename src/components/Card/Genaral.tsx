@@ -8,9 +8,6 @@ const MyResponsiveBump = ({ data }: { data: any }) => {
         <ResponsiveAreaBump
             data={data}
             colors={{ scheme: 'spectral' }}
-            lineWidth={1}
-            activeLineWidth={6}
-            inactiveLineWidth={3}
             inactiveOpacity={0.15}
             pointSize={10}
             activePointSize={16}
